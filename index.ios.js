@@ -11,22 +11,13 @@ import {
   Text,
   View
 } from 'react-native';
+import Login from './login';
+
 
 class dmsIos extends Component {
   render() {
     return (
-      <View style={styles.container}>
-        <Text style={styles.welcome}>
-          Welcome to React Native!
-        </Text>
-        <Text style={styles.instructions}>
-          To get started, edit index.ios.js
-        </Text>
-        <Text style={styles.instructions}>
-          Press Cmd+R to,{'\n'}
-          Cmd+D orjgn jngjnj
-        </Text>
-      </View>
+     <Login/>
     );
   }
 }
